@@ -1,0 +1,6 @@
+# learning-python
+
+This is my Python cheatsheet to help me while i learn Python
+
+
+text.truncate() - function that erases all of the data within the file defined by the variable 'text' (i.e. requires text = open(filename))

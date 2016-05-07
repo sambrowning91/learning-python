@@ -3,7 +3,7 @@
 This is my Python cheatsheet to help me while i learn Python <br>
 
 
-text.truncate() - function that erases all of the data within the file defined by the variable 'text' (i.e. requires text = open(filename))<br>
+
 
 Functions Checklist:<br>
 Did you start your function definition with def?<br>
@@ -18,7 +18,7 @@ Did you "end" your function by going back to writing with no indent (dedenting w
 <b> FUNCTIONS </b><br>
 print - prints the string, variable, etc.<br>
 raw_input() - takes input from a user, note that raw_input should be used over 'input' as the latter has security issues<br>
-<br><br>
-
+text.truncate() - function that erases all of the data within the file defined by the variable 'text' (i.e. requires text = open(filename))<br>
+<br>
 <b> MODULES </b><br>
 (sys) argv - lets you define a number of command-line arguments to be passed to the script<br>

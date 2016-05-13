@@ -13,7 +13,7 @@ Your boolean tests should be simple. If they are complex, move their calculation
 Use a while-loop only to loop forever, and that means probably never. This only applies to Python; other languages are different.<br>
 Use a for-loop for all other kinds of looping, especially if there is a fixed or limited number of things to loop over.
 
-Functions Checklist:<br>
+<b>Functions Checklist:</b><br>
 Did you start your function definition with def?<br>
 Does your function name have only characters and _ (underscore) characters?<br>
 Did you put an open parenthesis ( right after the function name?<br>

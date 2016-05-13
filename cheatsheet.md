@@ -1,14 +1,17 @@
 # learning-python
 
-This is my Python cheatsheet to help me while i learn Python <br>
+This is my Python cheatsheet to help me while I learn Python <br>
 
 
-<b>Rules for If-Statements</b><br><br>
+<b>Rules for If-Statements</b><br>
 Every if-statement must have an else.<br>
 If this else should never run because it doesn't make sense, then you must use a die function in the else that prints out an error<br> message and dies, just like we did in the last exercise. This will find many errors.<br>
 Never nest if-statements more than two deep and always try to do them one deep.<br>
 Treat if-statements like paragraphs, where each if-elif-else grouping is like a set of sentences. Put blank lines before and after.<br>
 Your boolean tests should be simple. If they are complex, move their calculations to variables earlier in your function and use a good name for the variable.<br><br>
+<b>Rules for Loops</b><br>
+Use a while-loop only to loop forever, and that means probably never. This only applies to Python; other languages are different.<br>
+Use a for-loop for all other kinds of looping, especially if there is a fixed or limited number of things to loop over.
 
 Functions Checklist:<br>
 Did you start your function definition with def?<br>

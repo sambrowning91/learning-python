@@ -38,3 +38,11 @@ raw_input() - takes input from a user, note that raw_input should be used over '
 <br>
 <b> MODULES </b><br>
 (sys) argv - lets you define a number of command-line arguments to be passed to the script<br>
+<br>
+<b> KEYWORDS </b>
+<table>
+  <tr>
+    <td>KEYWORD</td>
+    <td>DESCRIPTION</td>
+    <td>EXAMPLE</td>
+

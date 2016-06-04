@@ -169,10 +169,11 @@ raw_input() - takes input from a user, note that raw_input should be used over '
   <td>Pause here and return to caller.</td>
   <td>def <span class="pre">X():</span> yield Y; <span class="pre">X().next()</span></td>
   </tr>
-
+</table>
+<br>
 <b> DATA TYPES </b>
 
-<table>
+<table2>
   <tr>
     <td>TYPE</td>
     <td>DESCRIPTION</td>
@@ -210,4 +211,4 @@ raw_input() - takes input from a user, note that raw_input should be used over '
 <td>Stores a key=value mapping of things.</td>
 <td><tt class="docutils literal">e = {'x': 1, 'y': 2}</tt></td>
 </tr>
-</tbody>
+</table2>

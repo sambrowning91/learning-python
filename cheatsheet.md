@@ -49,4 +49,129 @@ raw_input() - takes input from a user, note that raw_input should be used over '
     <td>and</td>
     <td>Logical and.</td>
     <td>True and False == False </td>
-
+<tbody valign="top">
+<tr><td>and</td>
+<td>Logical and.</td>
+<td>True and False == False</td>
+</tr>
+<tr><td>as</td>
+<td>Part of the <cite>with-as</cite> statement.</td>
+<td>with X as Y: pass</td>
+</tr>
+<tr><td>assert</td>
+<td>Assert (ensure) that something is true.</td>
+<td>assert False, "Error!"</td>
+</tr>
+<tr><td>break</td>
+<td>Stop this loop right now.</td>
+<td>while True: break</td>
+</tr>
+<tr><td>class</td>
+<td>Define a class.</td>
+<td>class Person(object)</td>
+</tr>
+<tr><td>continue</td>
+<td>Don't process more of the loop, do it again.</td>
+<td>while True: continue</td>
+</tr>
+<tr><td>def</td>
+<td>Define a function.</td>
+<td>def <span class="pre">X():</span> pass</td>
+</tr>
+<tr><td>del</td>
+<td>Delete from dictionary.</td>
+<td>del X[Y]</td>
+</tr>
+<tr><td>elif</td>
+<td>Else if condition.</td>
+<td>if: X; elif: Y; else: J</td>
+</tr>
+<tr><td>else</td>
+<td>Else condition.</td>
+<td>if: X; elif: Y; else: J</td>
+</tr>
+<tr><td>except</td>
+<td>If an exception happens, do this.</td>
+<td>except ValueError, e: print e</td>
+</tr>
+<tr><td>exec</td>
+<td>Run a string as Python.</td>
+<td>exec 'print "hello"'</td>
+</tr>
+<tr><td>finally</td>
+<td>Exceptions or not, finally do this no matter what.</td>
+<td>finally: pass</td>
+</tr>
+<tr><td>for</td>
+<td>Loop over a collection of things.</td>
+<td>for X in Y: pass</td>
+</tr>
+<tr><td>from</td>
+<td>Importing specific parts of a module.</td>
+<td>from x import Y</td>
+</tr>
+<tr><td>global</td>
+<td>Declare that you want a global variable.</td>
+<td>global X</td>
+</tr>
+<tr><td>if</td>
+<td>If condition.</td>
+<td>if: X; elif: Y; else: J</td>
+</tr>
+<tr><td>import</td>
+<td>Import a module into this one to use.</td>
+<td>import os</td>
+</tr>
+<tr><td>in</td>
+<td>Part of <span class="pre">for-loops</span>. Also a test of X in Y.</td>
+<td>for X in Y: pass also 1 in [1] == True</td>
+</tr>
+<tr><td>is</td>
+<td>Like == to test equality.</td>
+<td>1 is 1 == True</td>
+</tr>
+<tr><td>lambda</td>
+<td>Create a short anonymous function.</td>
+<td>s = lambda y: y ** y; s(3)</td>
+</tr>
+<tr><td>not</td>
+<td>Logical not.</td>
+<td>not True == False</td>
+</tr>
+<tr><td>or</td>
+<td>Logical or.</td>
+<td>True or False == True</td>
+</tr>
+<tr><td>pass</td>
+<td>This block is empty.</td>
+<td>def <span class="pre">empty():</span> pass</td>
+</tr>
+<tr><td>print</td>
+<td>Print this string.</td>
+<td>print 'this string'</td>
+</tr>
+<tr><td>raise</td>
+<td>Raise an exception when things go wrong.</td>
+<td>raise <span class="pre">ValueError("No")</span></td>
+</tr>
+<tr><td>return</td>
+<td>Exit the function with a return value.</td>
+<td>def <span class="pre">X():</span> return Y</td>
+</tr>
+<tr><td>try</td>
+<td>Try this block, and if exception, go to except.</td>
+<td>try: pass</td>
+</tr>
+<tr><td>while</td>
+<td>While loop.</td>
+<td>while X: pass</td>
+</tr>
+<tr><td>with</td>
+<td>With an expression as a variable do.</td>
+<td>with X as Y: pass</td>
+</tr>
+<tr><td>yield</td>
+<td>Pause here and return to caller.</td>
+<td>def <span class="pre">X():</span> yield Y; <span class="pre">X().next()</span></td>
+</tr>
+</tbody>

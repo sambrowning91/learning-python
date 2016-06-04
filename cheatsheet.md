@@ -212,3 +212,40 @@ raw_input() - takes input from a user, note that raw_input should be used over '
 <td><tt class="docutils literal">e = {'x': 1, 'y': 2}</tt></td>
 </tr>
 </table>
+
+<br>
+
+<b> STRING ESCAPE SEQUENCES </b>
+<table>
+<tbody valign="top">
+<tr><td><tt class="docutils literal">\\</tt></td>
+<td>Backslash</td>
+</tr>
+<tr><td><tt class="docutils literal">\'</tt></td>
+<td>Single-quote</td>
+</tr>
+<tr><td><tt class="docutils literal">\"</tt></td>
+<td>Double-quote</td>
+</tr>
+<tr><td><tt class="docutils literal">\a</tt></td>
+<td>Bell</td>
+</tr>
+<tr><td><tt class="docutils literal">\b</tt></td>
+<td>Backspace</td>
+</tr>
+<tr><td><tt class="docutils literal">\f</tt></td>
+<td>Formfeed</td>
+</tr>
+<tr><td><tt class="docutils literal">\n</tt></td>
+<td>Newline</td>
+</tr>
+<tr><td><tt class="docutils literal">\r</tt></td>
+<td>Carriage</td>
+</tr>
+<tr><td><tt class="docutils literal">\t</tt></td>
+<td>Tab</td>
+</tr>
+<tr><td><tt class="docutils literal">\v</tt></td>
+<td>Vertical tab</td>
+</tr>
+</table>

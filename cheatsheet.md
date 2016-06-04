@@ -249,3 +249,197 @@ raw_input() - takes input from a user, note that raw_input should be used over '
 <td>Vertical tab</td>
 </tr>
 </table>
+<br>
+<b> STRING FORMATS </b>
+<table>
+<tbody valign="top">
+<tr><td><tt class="docutils literal">%d</tt></td>
+<td>Decimal integers (not floating point).</td>
+<td><tt class="docutils literal">"%d" % 45 == '45'</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%i</tt></td>
+<td>Same as %d.</td>
+<td><tt class="docutils literal">"%i" % 45 == '45'</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%o</tt></td>
+<td>Octal number.</td>
+<td><tt class="docutils literal">"%o" % 1000 == '1750'</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%u</tt></td>
+<td>Unsigned decimal.</td>
+<td><tt class="docutils literal">"%u" % <span class="pre">-1000</span> == <span class="pre">'-1000'</span></tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%x</tt></td>
+<td>Hexadecimal lowercase.</td>
+<td><tt class="docutils literal">"%x" % 1000 == '3e8'</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%X</tt></td>
+<td>Hexadecimal uppercase.</td>
+<td><tt class="docutils literal">"%X" % 1000 == '3E8'</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%e</tt></td>
+<td>Exponential notation, lowercase 'e'.</td>
+<td><tt class="docutils literal">"%e" % 1000 == '1.000000e+03'</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%E</tt></td>
+<td>Exponential notation, uppercase 'E'.</td>
+<td><tt class="docutils literal">"%E" % 1000 == '1.000000E+03'</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%f</tt></td>
+<td>Floating point real number.</td>
+<td><tt class="docutils literal">"%f" % 10.34 == '10.340000'</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%F</tt></td>
+<td>Same as %f.</td>
+<td><tt class="docutils literal">"%F" % 10.34 == '10.340000'</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%g</tt></td>
+<td>Either %f or %e, whichever is shorter.</td>
+<td><tt class="docutils literal">"%g" % 10.34 == '10.34'</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%G</tt></td>
+<td>Same as %g but uppercase.</td>
+<td><tt class="docutils literal">"%G" % 10.34 == '10.34'</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%c</tt></td>
+<td>Character format.</td>
+<td><tt class="docutils literal">"%c" % 34 == '"'</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%r</tt></td>
+<td>Repr format (debugging format).</td>
+<td><tt class="docutils literal">"%r" % int == "&lt;type <span class="pre">'int'&gt;"</span></tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%s</tt></td>
+<td>String format.</td>
+<td><tt class="docutils literal">"%s there" % 'hi' == 'hi there'</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%%</tt></td>
+<td>A percent sign.</td>
+<td><tt class="docutils literal"><span class="pre">"%g%%"</span> % 10.34 == '10.34%'</tt></td>
+</tr>
+</table>
+<br>
+<b> OPERATORS </b>
+<table>
+<tbody valign="top">
+<tr><td><tt class="docutils literal">+</tt></td>
+<td>Addition</td>
+<td><tt class="docutils literal">2 + 4 == 6</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">-</tt></td>
+<td>Subtraction</td>
+<td><tt class="docutils literal">2 - 4 == <span class="pre">-2</span></tt></td>
+</tr>
+<tr><td><tt class="docutils literal">*</tt></td>
+<td>Multiplication</td>
+<td><tt class="docutils literal">2 * 4 == 8</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">**</tt></td>
+<td>Power of</td>
+<td><tt class="docutils literal">2 ** 4 == 16</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">/</tt></td>
+<td>Division</td>
+<td><tt class="docutils literal">2 / 4.0 == 0.5</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">//</tt></td>
+<td>Floor division</td>
+<td><tt class="docutils literal">2 // 4.0 == 0.0</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%</tt></td>
+<td>String interpolate or modulus</td>
+<td><tt class="docutils literal">2 % 4 == 2</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">&lt;</tt></td>
+<td>Less than</td>
+<td><tt class="docutils literal">4 &lt; 4 == False</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">&gt;</tt></td>
+<td>Greater than</td>
+<td><tt class="docutils literal">4 &gt; 4 == False</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">&lt;=</tt></td>
+<td>Less than equal</td>
+<td><tt class="docutils literal">4 &lt;= 4 == True</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">&gt;=</tt></td>
+<td>Greater than equal</td>
+<td><tt class="docutils literal">4 &gt;= 4 == True</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">==</tt></td>
+<td>Equal</td>
+<td><tt class="docutils literal">4 == 5 == False</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">!=</tt></td>
+<td>Not equal</td>
+<td><tt class="docutils literal">4 != 5 == True</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">&lt;&gt;</tt></td>
+<td>Not equal</td>
+<td><tt class="docutils literal">4 &lt;&gt; 5 == True</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">( )</tt></td>
+<td>Parenthesis</td>
+<td><tt class="docutils literal"><span class="pre">len('hi')</span> == 2</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">[ ]</tt></td>
+<td>List brackets</td>
+<td><tt class="docutils literal">[1,3,4]</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">{ }</tt></td>
+<td>Dict curly braces</td>
+<td><tt class="docutils literal">{'x': 5, 'y': 10}</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">@</tt></td>
+<td>At (decorators)</td>
+<td><tt class="docutils literal">@classmethod</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">,</tt></td>
+<td>Comma</td>
+<td><tt class="docutils literal">range(0, 10)</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">:</tt></td>
+<td>Colon</td>
+<td><tt class="docutils literal">def <span class="pre">X():</span></tt></td>
+</tr>
+<tr><td><tt class="docutils literal">.</tt></td>
+<td>Dot</td>
+<td><tt class="docutils literal">self.x = 10</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">=</tt></td>
+<td>Assign equal</td>
+<td><tt class="docutils literal">x = 10</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">;</tt></td>
+<td>semi-colon</td>
+<td><tt class="docutils literal">print "hi"; print "there"</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">+=</tt></td>
+<td>Add and assign</td>
+<td><tt class="docutils literal">x = 1; x += 2</tt></td>
+</tr>
+<tr><td><tt class="docutils literal"><span class="pre">-=</span></tt></td>
+<td>Subtract and assign</td>
+<td><tt class="docutils literal">x = 1; x <span class="pre">-=</span> 2</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">*=</tt></td>
+<td>Multiply and assign</td>
+<td><tt class="docutils literal">x = 1; x *= 2</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">/=</tt></td>
+<td>Divide and assign</td>
+<td><tt class="docutils literal">x = 1; x /= 2</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">//=</tt></td>
+<td>Floor divide and assign</td>
+<td><tt class="docutils literal">x = 1; x //= 2</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">%=</tt></td>
+<td>Modulus assign</td>
+<td><tt class="docutils literal">x = 1; x %= 2</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">**=</tt></td>
+<td>Power assign</td>
+<td><tt class="docutils literal">x = 1; x **= 2</tt></td>
+</tr>
+</table>

@@ -45,4 +45,8 @@ raw_input() - takes input from a user, note that raw_input should be used over '
     <td>KEYWORD</td>
     <td>DESCRIPTION</td>
     <td>EXAMPLE</td>
+  <tr>
+    <td>and</td>
+    <td>Logical and.</td>
+    <td>True and False == False </td>
 

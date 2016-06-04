@@ -170,3 +170,44 @@ raw_input() - takes input from a user, note that raw_input should be used over '
   <td>def <span class="pre">X():</span> yield Y; <span class="pre">X().next()</span></td>
   </tr>
 
+<b> DATA TYPES </b>
+
+<table>
+  <tr>
+    <td>TYPE</td>
+    <td>DESCRIPTION</td>
+    <td>EXAMPLE</td>
+<tbody valign="top">
+<tr><td><tt class="docutils literal">True</tt></td>
+<td>True boolean value.</td>
+<td><tt class="docutils literal">True or False == True</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">False</tt></td>
+<td>False boolean value.</td>
+<td><tt class="docutils literal">False and True == False</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">None</tt></td>
+<td>Represents "nothing" or "no value".</td>
+<td><tt class="docutils literal">x = None</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">strings</tt></td>
+<td>Stores textual information.</td>
+<td><tt class="docutils literal">x = "hello"</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">numbers</tt></td>
+<td>Stores integers.</td>
+<td><tt class="docutils literal">i = 100</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">floats</tt></td>
+<td>Stores decimals.</td>
+<td><tt class="docutils literal">i = 10.389</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">lists</tt></td>
+<td>Stores a list of things.</td>
+<td><tt class="docutils literal">j = [1,2,3,4]</tt></td>
+</tr>
+<tr><td><tt class="docutils literal">dicts</tt></td>
+<td>Stores a key=value mapping of things.</td>
+<td><tt class="docutils literal">e = {'x': 1, 'y': 2}</tt></td>
+</tr>
+</tbody>

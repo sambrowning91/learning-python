@@ -173,7 +173,7 @@ raw_input() - takes input from a user, note that raw_input should be used over '
 <br>
 <b> DATA TYPES </b>
 
-<table2>
+<table>
   <tr>
     <td>TYPE</td>
     <td>DESCRIPTION</td>
@@ -211,4 +211,4 @@ raw_input() - takes input from a user, note that raw_input should be used over '
 <td>Stores a key=value mapping of things.</td>
 <td><tt class="docutils literal">e = {'x': 1, 'y': 2}</tt></td>
 </tr>
-</table2>
+</table>

@@ -17,4 +17,10 @@ def CollatzGen(startnum):
             print "Error"
             
 # Now what? Could iterate for every i in range [1,1000000] but this will just produce a lot of results and then need to sift thru
-# Write each set of results to a list, perform len on each list, looking to max len ?
+# Write each set of results to a list, perform len on each list, looking to max len 
+# really need an array that has startnum and chain length
+
+# Create list of possible starting numbers
+startnums = []
+for i in range(1,1000000):
+    startnums.append(i)

@@ -16,5 +16,5 @@ def CollatzGen(startnum):
         else:
             print "Error"
             
-# Now what? Could for every i in range [1,1000000] but this will just produce a lot of results and then need to sift thru
+# Now what? Could iterate for every i in range [1,1000000] but this will just produce a lot of results and then need to sift thru
 # Write each set of results to a list, perform len on each list, looking to max len ?

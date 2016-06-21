@@ -2,7 +2,11 @@
 # Collatz sequence defined in above URL
 # Which starting number below 1 million produces the longest chain?
 
-# Function to generate the sequence
+# Import necessary modules
+import numpy as np
+import pandas as pd
+
+# Function to generate the Collatz sequence (output is printed)
 def CollatzGen(startnum):
     x = startnum
     print "The starting number is: %d" % x
@@ -24,3 +28,6 @@ def CollatzGen(startnum):
 startnums = []
 for i in range(1,1000000):
     startnums.append(i)
+
+# need function to loop over each startnum in startnums and run it through Collatzgen, writing the length of the resulting output
+# to a dataframe
